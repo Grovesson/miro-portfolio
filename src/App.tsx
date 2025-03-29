@@ -3,7 +3,7 @@ import "./App.css"
 
 function App() {
     return (
-        <body className="font-(family-name:--font-quicksand) bg-neutral-300 pt-6 text-neutral-900 transition delay-150 duration-300 ease-in-out dark:bg-neutral-800 dark:text-neutral-200">
+        <div className="font-quicksand bg-neutral-300 pt-6 text-neutral-900 transition delay-150 duration-300 ease-in-out dark:bg-neutral-800 dark:text-neutral-200">
             <div className="@container">
                 <div className="m-auto flex max-w-[65ch] justify-between px-12 text-sm *:transition *:duration-300 *:hover:scale-110 *:hover:font-semibold sm:px-0 sm:text-base">
                     <h1 className="font-medium">ML</h1>
@@ -63,6 +63,17 @@ function App() {
                     <h2 id="exp" className="text-2xl">
                         Kokemus
                     </h2>
+                    <div className="flex flex-wrap justify-center gap-12 text-2xl">
+                        <i className="fa-brands fa-html5"></i>
+                        <i className="fa-brands fa-css3-alt"></i>
+                        <i className="fa-brands fa-wordpress-simple"></i>
+                        <i className="fa-brands fa-js"></i>
+                        <i className="fa-brands fa-react"></i>
+                        <i className="fa-brands fa-git-alt"></i>
+                        <i className="fa-brands fa-node-js"></i>
+                        <i className="fa-solid fa-database"></i>
+                        <i className="fa-brands fa-python"></i>
+                    </div>
                     <p>
                         Eniten kokemusta minulla on verkkosivujen tekemisestä ja
                         siihen liittyvistä teknologioista. HTML ja CSS ovat
@@ -137,17 +148,6 @@ function App() {
                         vielä paljon enemmän ja siirtyä koulun penkiltä
                         toimistolle.
                     </p>
-                    <div className="flex gap-12 text-2xl">
-                        <i className="fa-brands fa-html5"></i>
-                        <i className="fa-brands fa-css3-alt"></i>
-                        <i className="fa-brands fa-wordpress-simple"></i>
-                        <i className="fa-brands fa-js"></i>
-                        <i className="fa-brands fa-react"></i>
-                        <i className="fa-brands fa-git-alt"></i>
-                        <i className="fa-brands fa-node-js"></i>
-                        <i className="fa-solid fa-database"></i>
-                        <i className="fa-brands fa-python"></i>
-                    </div>
                 </div>
             </div>
             <div className="@container p-12">
@@ -168,7 +168,7 @@ function App() {
                     </p>
                 </div>
             </div>
-        </body>
+        </div>
     )
 }
 
