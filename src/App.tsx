@@ -1,24 +1,15 @@
 import portrait from "./assets/miro.jpg"
 import "./App.css"
+import Navigation from "./components/Navigation"
 
 function App() {
     return (
-        <div className="font-quicksand bg-neutral-300 pt-6 text-neutral-900 transition delay-150 duration-300 ease-in-out dark:bg-neutral-800 dark:text-neutral-200">
-            <div className="@container">
-                <div className="m-auto flex max-w-[65ch] justify-between px-12 text-sm *:transition *:duration-300 *:hover:scale-110 *:hover:font-semibold sm:px-0 sm:text-base">
-                    <h1 className="font-medium">ML</h1>
-                    <a href="#info">Tietoa</a>
-                    <a href="#exp">Kokemus</a>
-                    <a href="#contact">Yhteystiedot</a>
-                    <a
-                        href="https://www.linkedin.com/in/miro-v-lehto/"
-                        className="*:hover:text-neutral-50 *:hover:underline"
-                    >
-                        <i className="fa-brands fa-linkedin fa-2xl"></i>
-                    </a>
-                </div>
-            </div>
-            <div className="@container flex flex-col items-center">
+        <div
+            id="top"
+            className="font-quicksand bg-neutral-300 pt-6 text-neutral-800 transition delay-150 duration-300 ease-in-out dark:bg-neutral-900 dark:text-neutral-200"
+        >
+            <Navigation />
+            <div className="@container mt-12 flex flex-col items-center">
                 <img
                     src={portrait}
                     alt="Portrait"
@@ -156,12 +147,20 @@ function App() {
                         Yhteystiedot
                     </h2>
                     <p>Puhelinnumero: 0400269669</p>
-                    <p>Sähköposti: miro.v.lehto@gmail.com</p>
+                    <p>
+                        Sähköposti:{" "}
+                        <a
+                            href="mailto:miro.v.lehto@gmail.com"
+                            className="text-neutral-500 hover:underline"
+                        >
+                            miro.v.lehto@gmail.com
+                        </a>
+                    </p>
                     <p>
                         LinkedIn:{" "}
                         <a
                             href="https://www.linkedin.com/in/miro-v-lehto/"
-                            className="underline"
+                            className="text-neutral-500 hover:underline"
                         >
                             Miro Lehto
                         </a>
