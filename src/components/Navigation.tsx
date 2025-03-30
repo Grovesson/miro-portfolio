@@ -5,7 +5,7 @@ const Navigation = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 512) {
                 setScrolled(true)
             } else {
                 setScrolled(false)
@@ -22,10 +22,10 @@ const Navigation = () => {
                 <a href="#top" className="font-bold">
                     {scrolled ? <i className="fa-solid fa-arrow-up"></i> : "ML"}
                 </a>
-                <a href="#info" className="cursor-pointer">
+                <a href="#about" className="cursor-pointer">
                     Tietoa
                 </a>
-                <a href="#exp" className="cursor-pointer">
+                <a href="#experience" className="cursor-pointer">
                     Kokemus
                 </a>
                 <a href="#contact" className="cursor-pointer">
