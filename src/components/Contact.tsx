@@ -1,12 +1,8 @@
-import React from "react"
-
 const Contact = () => {
     return (
-        <div className="@container p-12">
+        <div id="contact" className="@container p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
-                <h2 id="contact" className="text-2xl">
-                    Yhteystiedot
-                </h2>
+                <h2 className="text-2xl">Yhteystiedot</h2>
                 <p>Puhelinnumero: 0400269669</p>
                 <p>
                     Sähköposti:{" "}
@@ -24,6 +20,11 @@ const Contact = () => {
                         className="text-neutral-500 hover:underline"
                     >
                         Miro Lehto
+                    </a>
+                </p>
+                <p className="bg-siege-500/10 text-siege-500 hover:text-siege-700 dark:hover:text-siege-100 dark:text-siege-300 rounded-md px-4 py-2 transition delay-75 duration-150 ease-out hover:scale-110">
+                    <a href="#top" className="">
+                        Takaisin ylös
                     </a>
                 </p>
             </div>

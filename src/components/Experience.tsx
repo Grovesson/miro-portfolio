@@ -1,24 +1,77 @@
-import React from "react"
-
+import { FaHtml5 } from "react-icons/fa"
+import { RiTailwindCssFill } from "react-icons/ri"
+import { GrWordpress } from "react-icons/gr"
+import { FaReact } from "react-icons/fa"
+import { FaNodeJs } from "react-icons/fa"
+import { SiVite } from "react-icons/si"
+import { TbSql } from "react-icons/tb"
+import { RiPhpFill } from "react-icons/ri"
+import { TbBrandCpp } from "react-icons/tb"
+import { FaPython } from "react-icons/fa"
+import { FaJs } from "react-icons/fa"
+import { SiElixir } from "react-icons/si"
 const experience = () => {
     return (
-        <div className="@container p-12">
+        <div id="experience" className="@container p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
-                <h2 id="experience" className="text-2xl">
-                    Kokemus
-                </h2>
-                <div className="flex flex-wrap justify-center gap-12 text-2xl">
-                    <i className="fa-brands fa-html5"></i>
-                    <i className="fa-brands fa-css3-alt"></i>
-                    <i className="fa-brands fa-wordpress-simple"></i>
-                    <i className="fa-brands fa-js"></i>
-                    <i className="fa-brands fa-react"></i>
-                    <i className="fa-brands fa-git-alt"></i>
-                    <i className="fa-brands fa-node-js"></i>
-                    <i className="fa-solid fa-database"></i>
-                    <i className="fa-brands fa-python"></i>
+                <h2 className="font-poppins text-2xl">Kokemus</h2>
+                <div className="font-poppins grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center font-bold *:px-4 *:text-xl sm:grid-cols-3 sm:px-0">
+                    <div className="flex flex-col gap-4">
+                        <h2 className="">Front-End</h2>
+                        <div className="flex justify-around">
+                            <FaHtml5 />
+                            <RiTailwindCssFill />
+                            <GrWordpress />
+                            <FaReact />
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <h2 className="">Back-End</h2>
+                        <div className="flex justify-around">
+                            <FaNodeJs />
+                            <SiVite />
+                            <TbSql />
+                            <RiPhpFill />
+                        </div>
+                    </div>
+                    <div className="col-span-2 flex flex-col gap-4 sm:col-span-1">
+                        <h2 className="hidden sm:contents">Ohjelmointi</h2>
+                        <h2 className="contents sm:hidden">
+                            Ohjelmointikielet
+                        </h2>
+                        <div className="flex justify-around">
+                            <TbBrandCpp />
+                            <FaPython />
+                            <FaJs />
+                            <SiElixir />
+                        </div>
+                    </div>
                 </div>
                 <p>
+                    Vahvuuteni on ehdottomasti kehityksen luovissa osa-alueissa.
+                    Toimivat ja kauniit käyttöliittymät tulevat minulta
+                    luonnostaan ja nautin niiden tekemisestä. Ideoiden
+                    toteuttaminen kuitenkin vaatii vahvaa teknistä osaamista,
+                    joka on minulla myös hallussa. Figmasta toimivaan koodiin -
+                    minulta se onnistuu.
+                </p>
+                <p>
+                    Kauniilla käyttöliittymällä ei kuitenkaan pääse kauas jos
+                    itse palvelun käyttö ei ole sujuvaa. Siksi nopea ja
+                    turvallinen back-end on isossa roolissa tämän päivän
+                    sähköisissä palveluissa. Nämä asiat ovat minulle tärkeitä ja
+                    pidän huolen siitä, että työni täyttää nämä vaatimukset.
+                </p>
+                <p>
+                    Ohjelmoinnissa keskityn selkeään ja tehokkaaseen koodiin,
+                    joka on helposti ylläpidettävää ja skaalautuvaa. Käytän
+                    parhaita käytäntöjä, kuten modulaarisuutta, testivetoista
+                    kehitystä ja suunnittelumalleja. Ratkaisen ongelmia
+                    loogisesti ja valitsen teknologiat aina tarpeen mukaan.
+                    Projektit ovat kuitenkin usein monen tekijän pyrintö ja
+                    tähän omaan erinomaiset valmiudet.
+                </p>
+                {/* <p>
                     Minulla on eniten kokemusta verkkosivujen tekemisestä ja
                     niihin liittyvistä teknologioista. HTML ja CSS ovat
                     yksinkertaisia työkaluja, mutta niiden syvällinen osaaminen
@@ -26,7 +79,7 @@ const experience = () => {
                 </p>
                 <p>
                     Olen rakentanut myös WordPressillä nettisivuja. Hyvä
-                    esimerkki tästä on
+                    esimerkki tästä on{" "}
                     <a
                         href="https://jio.fi"
                         className="underline"
@@ -93,7 +146,7 @@ const experience = () => {
                     saanut kaiken irti koulun tarjoamista opeista.
                     Tarkoituksenani on kuitenkin oppia vielä paljon lisää ja
                     siirtyä koulun penkiltä työelämään.
-                </p>
+                </p> */}
             </div>
         </div>
     )

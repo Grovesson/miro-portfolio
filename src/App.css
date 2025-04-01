@@ -1,9 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 @import "tailwindcss";
 
 @theme {
     --font-quicksand: "Quicksand", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --color-siege-50: oklch(0.982 0.004 166.429);
+    --color-siege-100: oklch(0.964 0.009 166.948);
+    --color-siege-200: oklch(0.925 0.013 172.754);
+    --color-siege-300: oklch(0.859 0.02 171.447);
+    --color-siege-400: oklch(0.729 0.033 170.894);
+    --color-siege-500: oklch(0.602 0.037 171.709);
+    --color-siege-600: oklch(0.498 0.035 173.641);
+    --color-siege-700: oklch(0.411 0.033 173.644);
+    --color-siege-800: oklch(0.307 0.03 175.015);
+    --color-siege-900: oklch(0.229 0.027 180.878);
+    --color-siege-950: oklch(0.139 0.025 179.348);
 }
+
 html {
     scroll-behavior: smooth;
 }
