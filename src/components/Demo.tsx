@@ -10,8 +10,8 @@ const Demo = () => {
                 Haluatte varmasti nähdä enemmän esimerkkejä osaamisestani -
                 tässä on muutama:
             </p>
-            <div className="grid grid-cols-3 *:p-6">
-                <div className="flex flex-col gap-6 rounded-md border border-white/40 bg-linear-to-br/oklch from-white/20 to-white/10 text-center drop-shadow-md backdrop-blur-lg">
+            <div className="grid grid-cols-1 *:p-6 sm:grid-cols-3">
+                <div className="flex max-w-[16ch] flex-col gap-6 rounded-md border border-white/40 bg-linear-to-br/oklch from-white/20 to-white/10 text-center drop-shadow-md backdrop-blur-lg">
                     <a href="#top" target="_blank">
                         <img
                             src={fakestore}
