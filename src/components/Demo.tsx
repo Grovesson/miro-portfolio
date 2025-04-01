@@ -16,7 +16,7 @@ const Demo = () => {
                         <img
                             src={fakestore}
                             alt="FakeStore logo."
-                            className="max-w-[16ch] transition delay-150 duration-300 ease-out hover:filter-none sm:grayscale sm:hover:scale-110 sm:hover:filter-none"
+                            className="transition delay-150 duration-300 ease-out hover:filter-none sm:grayscale sm:hover:scale-110 sm:hover:filter-none"
                         />
                     </a>
                     <a href="https://fakestoreapi.com/" target="_blank">
