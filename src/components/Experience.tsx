@@ -10,10 +10,10 @@ import { TbBrandCpp } from "react-icons/tb"
 import { FaPython } from "react-icons/fa"
 import { FaJs } from "react-icons/fa"
 import { SiElixir } from "react-icons/si"
-import { FaFigma } from "react-icons/fa";
-import { SiCanva } from "react-icons/si";
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiDavinciresolve } from "react-icons/si";
+import { FaFigma } from "react-icons/fa"
+import { SiCanva } from "react-icons/si"
+import { SiAdobephotoshop } from "react-icons/si"
+import { SiDavinciresolve } from "react-icons/si"
 const experience = () => {
     return (
         <div id="experience" className="@container p-12">
@@ -40,7 +40,7 @@ const experience = () => {
                     </div>
                     <div className="flex flex-col gap-4">
                         <h2 className="">Ohjelmointi</h2>
-                        
+
                         <div className="flex justify-around">
                             <TbBrandCpp />
                             <FaPython />
@@ -48,9 +48,9 @@ const experience = () => {
                             <SiElixir />
                         </div>
                     </div>
-                    <div className=" flex flex-col gap-4">
+                    <div className="flex flex-col gap-4">
                         <h2 className="">Media</h2>
-                        
+
                         <div className="flex justify-around">
                             <FaFigma />
                             <SiCanva />
@@ -60,29 +60,23 @@ const experience = () => {
                     </div>
                 </div>
                 <p>
-                    Vahvuuteni on ehdottomasti kehityksen luovissa osa-alueissa.
-                    Toimivat ja kauniit käyttöliittymät tulevat minulta
-                    luonnostaan ja nautin niiden tekemisestä. Ideoiden
-                    toteuttaminen kuitenkin vaatii vahvaa teknistä osaamista,
-                    joka on minulla myös hallussa. Figmasta toimivaan koodiin -
-                    minulta se onnistuu.
+                    Olen vahvimmillani kehityksen luovissa osa-alueissa.
+                    Toimivat ja kauniit käyttöliittymät syntyvät minulta
+                    luontevasti, ja niiden toteuttaminen sujuu ideasta koodiin.
                 </p>
                 <p>
-                    Kauniilla käyttöliittymällä ei kuitenkaan pääse kauas jos
-                    itse palvelun käyttö ei ole sujuvaa. Siksi nopea ja
-                    turvallinen back-end on isossa roolissa tämän päivän
-                    sähköisissä palveluissa. Nämä asiat ovat minulle tärkeitä ja
-                    pidän huolen siitä, että työni täyttää nämä vaatimukset.
+                    Käyttökokemus ei perustu vain ulkonäköön – nopea ja
+                    turvallinen back-end on olennainen osa toimivaa palvelua.
+                    Panostan sujuvuuteen ja varmistaan, että työni täyttää nämä
+                    vaatimukset.
                 </p>
                 <p>
-                    Ohjelmoinnissa keskityn selkeään ja tehokkaaseen koodiin,
-                    joka on helposti ylläpidettävää ja skaalautuvaa. Käytän
-                    parhaita käytäntöjä, kuten modulaarisuutta, testivetoista
-                    kehitystä ja suunnittelumalleja. Ratkaisen ongelmia
-                    loogisesti ja valitsen teknologiat aina tarpeen mukaan.
-                    Projektit ovat kuitenkin usein monen tekijän pyrintö ja
-                    tähän omaan erinomaiset valmiudet.
+                    Ohjelmoin selkeää, tehokasta ja helposti ylläpidettävää
+                    koodia hyödyntäen parhaita käytäntöjä. Ratkaisen ongelmia
+                    loogisesti ja valitsen teknologiat tarpeen mukaan.
+                    Tiimityössä minulla on vahvat valmiudet.
                 </p>
+
                 {/* <p>
                     Minulla on eniten kokemusta verkkosivujen tekemisestä ja
                     niihin liittyvistä teknologioista. HTML ja CSS ovat

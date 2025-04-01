@@ -7,12 +7,8 @@ const About = () => {
             <h2 className="font-poppins text-2xl">Minusta</h2>
             <p>
                 Hei! Nimeni on Miro, ja olen 23-vuotias IT-insinööriopiskelija
-                Jyväskylästä. Opiskelen kolmatta vuotta, ja tutkinnon yleisten
-                kurssien jälkeen erikoistuin ohjelmistokehitykseen, mistä olen
-                tykännyt erittäin paljon. Kurssien aikana olen tehnyt monia
-                sovelluksia ja verkkosivuja, joiden tarkoituksena on ollut
-                opettaa minulle työtapoja sekä teknologioita, joita työelämässä
-                hyödynnetään.
+                Jyväskylästä. Opiskelen kolmatta vuotta ja erikoistun
+                kehitykseen.
             </p>
             {/* <p>
                 Vapaa-ajallani vietän myös paljon aikaa tietokoneiden parissa,
