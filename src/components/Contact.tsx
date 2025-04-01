@@ -22,7 +22,7 @@ const Contact = () => {
                         Miro Lehto
                     </a>
                 </p>
-                <p className="bg-siege-500/10 text-siege-500 hover:text-siege-700 dark:hover:text-siege-100 dark:text-siege-300 rounded-md px-4 py-2 transition delay-75 duration-150 ease-out hover:scale-110">
+                <p className="bg-grove-500/10 text-grove-500 hover:text-grove-700 dark:hover:text-grove-100 dark:text-grove-300 rounded-md px-4 py-2 transition delay-75 duration-150 ease-out hover:scale-110">
                     <a href="#top" className="">
                         Takaisin ylös
                     </a>

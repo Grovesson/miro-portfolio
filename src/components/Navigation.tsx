@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6"
 const Navigation = () => {
     return (
         <div className="fixed top-0 z-10 w-full bg-white/25 shadow-md backdrop-blur-xs dark:bg-black/25">
-            <div className="text-siege-700 dark:text-siege-300 m-auto flex h-16 max-w-[65ch] items-center justify-around px-6 sm:justify-between sm:px-0">
+            <div className="text-grove-700 dark:text-grove-300 m-auto flex h-16 max-w-[65ch] items-center justify-around px-6 sm:justify-between sm:px-0">
                 <a
                     href="#top"
                     className="font-poppins hidden text-lg sm:contents"

@@ -5,17 +5,17 @@
 @theme {
     --font-quicksand: "Quicksand", sans-serif;
     --font-poppins: "Poppins", sans-serif;
-    --color-siege-50: oklch(0.982 0.004 166.429);
-    --color-siege-100: oklch(0.964 0.009 166.948);
-    --color-siege-200: oklch(0.925 0.013 172.754);
-    --color-siege-300: oklch(0.859 0.02 171.447);
-    --color-siege-400: oklch(0.729 0.033 170.894);
-    --color-siege-500: oklch(0.602 0.037 171.709);
-    --color-siege-600: oklch(0.498 0.035 173.641);
-    --color-siege-700: oklch(0.411 0.033 173.644);
-    --color-siege-800: oklch(0.307 0.03 175.015);
-    --color-siege-900: oklch(0.229 0.027 180.878);
-    --color-siege-950: oklch(0.139 0.025 179.348);
+    --color-grove-50: oklch(0.982 0.004 166.429);
+    --color-grove-100: oklch(0.964 0.009 166.948);
+    --color-grove-200: oklch(0.925 0.013 172.754);
+    --color-grove-300: oklch(0.859 0.02 171.447);
+    --color-grove-400: oklch(0.729 0.033 170.894);
+    --color-grove-500: oklch(0.602 0.037 171.709);
+    --color-grove-600: oklch(0.498 0.035 173.641);
+    --color-grove-700: oklch(0.411 0.033 173.644);
+    --color-grove-800: oklch(0.307 0.03 175.015);
+    --color-grove-900: oklch(0.229 0.027 180.878);
+    --color-grove-950: oklch(0.139 0.025 179.348);
 }
 
 html {

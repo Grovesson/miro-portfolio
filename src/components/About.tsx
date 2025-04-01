@@ -2,7 +2,7 @@ const About = () => {
     return (
         <div
             id="about"
-            className="bg-siege-500/10 @container flex flex-col gap-6 p-12 drop-shadow-lg *:m-auto *:max-w-[65ch]"
+            className="bg-grove-500/10 @container flex flex-col gap-6 p-12 drop-shadow-lg *:m-auto *:max-w-[65ch]"
         >
             <h2 className="font-poppins text-2xl">Minusta</h2>
             <p>

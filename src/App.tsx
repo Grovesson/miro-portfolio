@@ -11,7 +11,7 @@ function App() {
     return (
         <div
             id="top"
-            className="font-quicksand from-siege-50 to-siege-200 text-siege-900 dark:from-siege-800 dark:to-siege-950 dark:text-siege-100 bg-linear-to-br/oklch transition delay-150 duration-300 ease-in-out dark:bg-linear-to-br/oklch"
+            className="font-quicksand from-grove-50 to-grove-200 text-grove-900 dark:from-grove-800 dark:to-grove-950 dark:text-grove-100 bg-linear-to-br/oklch transition delay-150 duration-300 ease-in-out dark:bg-linear-to-br/oklch"
         >
             <Navigation />
             <Hero />
