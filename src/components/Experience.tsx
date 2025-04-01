@@ -10,12 +10,16 @@ import { TbBrandCpp } from "react-icons/tb"
 import { FaPython } from "react-icons/fa"
 import { FaJs } from "react-icons/fa"
 import { SiElixir } from "react-icons/si"
+import { FaFigma } from "react-icons/fa";
+import { SiCanva } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiDavinciresolve } from "react-icons/si";
 const experience = () => {
     return (
         <div id="experience" className="@container p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
                 <h2 className="font-poppins text-2xl">Kokemus</h2>
-                <div className="font-poppins grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center font-bold *:px-4 *:text-xl sm:grid-cols-3 sm:px-0">
+                <div className="font-poppins grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center font-bold *:px-4 *:text-xl sm:px-0">
                     <div className="flex flex-col gap-4">
                         <h2 className="">Front-End</h2>
                         <div className="flex justify-around">
@@ -34,16 +38,24 @@ const experience = () => {
                             <RiPhpFill />
                         </div>
                     </div>
-                    <div className="col-span-2 flex flex-col gap-4 sm:col-span-1">
-                        <h2 className="hidden sm:contents">Ohjelmointi</h2>
-                        <h2 className="contents sm:hidden">
-                            Ohjelmointikielet
-                        </h2>
+                    <div className="flex flex-col gap-4">
+                        <h2 className="">Ohjelmointi</h2>
+                        
                         <div className="flex justify-around">
                             <TbBrandCpp />
                             <FaPython />
                             <FaJs />
                             <SiElixir />
+                        </div>
+                    </div>
+                    <div className=" flex flex-col gap-4">
+                        <h2 className="">Media</h2>
+                        
+                        <div className="flex justify-around">
+                            <FaFigma />
+                            <SiCanva />
+                            <SiAdobephotoshop />
+                            <SiDavinciresolve />
                         </div>
                     </div>
                 </div>
