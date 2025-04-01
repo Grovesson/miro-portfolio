@@ -18,8 +18,8 @@ const experience = () => {
     return (
         <div id="experience" className="@container p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
-                <h2 className="font-poppins text-2xl">Kokemus</h2>
-                <div className="font-poppins grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center font-bold *:px-4 *:text-xl sm:px-0">
+                <h2 className="text-2xl">Kokemus</h2>
+                <div className="grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center *:px-4 *:text-3xl sm:px-0">
                     <div className="flex flex-col gap-4">
                         <h2 className="">Front-End</h2>
                         <div className="flex justify-around">
@@ -59,99 +59,24 @@ const experience = () => {
                         </div>
                     </div>
                 </div>
-                <p>
+                {/* <p>
                     Olen vahvimmillani kehityksen luovissa osa-alueissa.
-                    Toimivat ja kauniit käyttöliittymät syntyvät minulta
-                    luontevasti, ja niiden toteuttaminen sujuu ideasta koodiin.
+                    Toimivat ja kauniit{" "}
+                    <b>käyttöliittymät syntyvät minulta luontevasti</b>, ja
+                    niiden toteuttaminen sujuu ideasta koodiin.
                 </p>
                 <p>
                     Käyttökokemus ei perustu vain ulkonäköön – nopea ja
                     turvallinen back-end on olennainen osa toimivaa palvelua.
-                    Panostan sujuvuuteen ja varmistaan, että työni täyttää nämä
-                    vaatimukset.
+                    <b>Panostan sujuvuuteen</b> ja varmistan, että työni täyttää
+                    nämä vaatimukset.
                 </p>
                 <p>
-                    Ohjelmoin selkeää, tehokasta ja helposti ylläpidettävää
-                    koodia hyödyntäen parhaita käytäntöjä. Ratkaisen ongelmia
+                    Ohjelmoin{" "}
+                    <b>selkeää, tehokasta ja helposti ylläpidettävää koodia</b>{" "}
+                    hyödyntäen parhaita käytäntöjä. Ratkaisen ongelmia
                     loogisesti ja valitsen teknologiat tarpeen mukaan.
                     Tiimityössä minulla on vahvat valmiudet.
-                </p>
-
-                {/* <p>
-                    Minulla on eniten kokemusta verkkosivujen tekemisestä ja
-                    niihin liittyvistä teknologioista. HTML ja CSS ovat
-                    yksinkertaisia työkaluja, mutta niiden syvällinen osaaminen
-                    mahdollistaa kaikkien muiden teknologioiden sulavan käytön.
-                </p>
-                <p>
-                    Olen rakentanut myös WordPressillä nettisivuja. Hyvä
-                    esimerkki tästä on{" "}
-                    <a
-                        href="https://jio.fi"
-                        className="underline"
-                        target="_blank"
-                    >
-                        JIOn verkkosivut
-                    </a>
-                    , joiden kehittämisessä olen ollut mukana ja joista olen
-                    tällä hetkellä vastuussa. Suunnittelutyökaluna käytän
-                    Figmaa, jolla osaan nopeasti luoda moderneja ja toimivia
-                    käyttöliittymiä.
-                </p>
-                <p>
-                    JavaScriptillä olen rakentanut suuren osan sivujeni
-                    toiminnallisuudesta, mutta siirryin nopeasti Reactiin ja
-                    muihin työkaluihin, jotka tarjoavat vielä enemmän
-                    mahdollisuuksia. Tämä nettisivu on rakennettu Reactilla ja
-                    TypeScriptillä, mikä takaa helpon ja turvallisen
-                    kehittämisen tulevaisuudessa.
-                </p>
-                <p>
-                    Sivun rakennustyökaluna hyödynnän Viteä, joka on
-                    salamannopea tapa saada projekti käyntiin. Sen avulla on
-                    todella helppo lisätä uusia ominaisuuksia ja
-                    toiminnallisuuksia projektiin. Itse sivut hostaan GitHubin
-                    kätevällä Pages-ominaisuudella. Pelkkä "npm run deploy"
-                    konsoliin, ja nettisivut päivittyvät automaattisesti. Tämän
-                    kautta hoituu myös automaattinen versionhallinta. Tailwind
-                    CSS 4.0 on täysin tuettu Vitessä, ja sen mukana tulee kaikki
-                    lisäosat VS Codeen, kuten optimoitu linttaus ja
-                    automaattinen täydennys.
-                </p>
-                <p>
-                    Osana tutkintoa on ollut useita kursseja, joissa on
-                    keskitytty Back End -kehitykseen. API-avainten ja
-                    tietokantojen integroiminen projekteihin on tullut tutuksi,
-                    ja niiden avulla olen rakentanut esimerkiksi
-                    elokuvakirjastoja sekä karttasovelluksia.
-                    CRUD-toiminnallisuuksien toteuttaminen ja
-                    kirjautumisjärjestelmien kehittäminen on hallussa.
-                </p>
-                <p>
-                    Tietokantoja olemme päässeet harjoittelemaan useilla
-                    kursseilla. Teknologiat kuten MySQL ja MongoDB ovat olleet
-                    tärkeä osa opintojani.
-                </p>
-                <p>
-                    Tutkinnon aikana olen käyttänyt useita ohjelmointikieliä.
-                    Esimerkiksi C#, C++, Elixir ja Python ovat olleet
-                    aktiivisesti käytössä. Olen muun muassa rakentanut ja
-                    ohjelmoinut radio-ohjattavan tai tekoälyllä ajavan auton.
-                    Autossa oli akkuvirralla toimivat moottorit ja sensorit,
-                    jotka kiinnitin Raspberry Pi -alustaan, ja kehitin siihen
-                    tarvittavat ohjelmistot.
-                </p>
-                <p>
-                    Myös fyysisten toteutusten puoli on minulla hallussa.
-                    Tietokoneiden ja muiden laitteiden rakentaminen on minulle
-                    tuttua, ja saan usein pyyntöjä esimerkiksi tietokoneen
-                    kokoamiseen.
-                </p>
-                <p>
-                    Yleisesti ottaen IT-osaamiseni on hyvällä tasolla, ja olen
-                    saanut kaiken irti koulun tarjoamista opeista.
-                    Tarkoituksenani on kuitenkin oppia vielä paljon lisää ja
-                    siirtyä koulun penkiltä työelämään.
                 </p> */}
             </div>
         </div>

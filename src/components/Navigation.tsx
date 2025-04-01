@@ -5,10 +5,7 @@ const Navigation = () => {
     return (
         <div className="fixed top-0 z-10 w-full bg-white/25 shadow-md backdrop-blur-xs dark:bg-black/25">
             <div className="text-grove-700 dark:text-grove-300 m-auto flex h-16 max-w-[65ch] items-center justify-around px-6 sm:justify-between sm:px-0">
-                <a
-                    href="#top"
-                    className="font-poppins hidden text-lg sm:contents"
-                >
+                <a href="#top" className="hidden text-lg sm:contents">
                     Miro Lehto
                 </a>
                 <ul className="flex gap-3 text-sm underline-offset-5 *:transition *:delay-75 *:duration-150 *:ease-out *:hover:scale-120 *:hover:underline sm:gap-6 sm:text-base">
@@ -18,9 +15,9 @@ const Navigation = () => {
                     <a href="#experience" className="cursor-pointer">
                         Kokemus
                     </a>
-                    <a href="#demo" className="cursor-pointer">
+                    {/* <a href="#demo" className="cursor-pointer">
                         Demo
-                    </a>
+                    </a> */}
                     <a href="#contact" className="cursor-pointer">
                         Yhteystiedot
                     </a>

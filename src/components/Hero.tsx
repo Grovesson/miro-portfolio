@@ -8,8 +8,8 @@ const Hero = () => {
                 alt="Portrait"
                 className="w-96 rounded-full p-8 text-center transition delay-150 duration-300 ease-out sm:grayscale-10 sm:hover:scale-110 sm:hover:filter-none"
             />
-            <h1 className="font-poppins text-4xl font-medium">Miro Lehto</h1>
-            <p>IT-Insinööriopiskelija</p>
+            <h1 className="text-4xl font-medium">Miro Lehto</h1>
+            <p>IT-Insinööriopiskelija | Web-kehittäjä</p>
         </div>
     )
 }
