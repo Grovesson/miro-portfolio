@@ -25,7 +25,8 @@ const About = () => {
             </p>
             <p>
                 Web-kehityksen ulkopuolelta olen toteuttanut myös projekteja
-                esimerkiksi robotiikan tai karttapalveluiden parissa.
+                esimerkiksi robotiikan, karttasovelluksien ja videopelien
+                parissa.
             </p>
         </div>
     )

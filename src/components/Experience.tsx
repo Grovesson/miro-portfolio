@@ -19,10 +19,10 @@ const experience = () => {
         <div id="experience" className="@container p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
                 <h2 className="text-2xl">Kokemus</h2>
-                <div className="grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center *:px-4 *:text-3xl sm:px-0">
+                <div className="grid w-full max-w-[65ch] grid-cols-2 gap-y-6 pb-6 text-center *:px-4 sm:px-0">
                     <div className="flex flex-col gap-4">
-                        <h2 className="">Front-End</h2>
-                        <div className="flex justify-around">
+                        <h2 className="text-lg sm:text-2xl">Front-End</h2>
+                        <div className="flex justify-around text-2xl *:transition *:delay-150 *:duration-300 *:ease-out sm:text-4xl sm:*:hover:scale-130">
                             <FaHtml5 />
                             <RiTailwindCssFill />
                             <GrWordpress />
@@ -30,8 +30,8 @@ const experience = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <h2 className="">Back-End</h2>
-                        <div className="flex justify-around">
+                        <h2 className="text-lg sm:text-2xl">Back-End</h2>
+                        <div className="flex justify-around text-2xl *:transition *:delay-150 *:duration-300 *:ease-out sm:text-4xl sm:*:hover:scale-130">
                             <FaNodeJs />
                             <SiVite />
                             <TbSql />
@@ -39,9 +39,9 @@ const experience = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <h2 className="">Ohjelmointi</h2>
+                        <h2 className="text-lg sm:text-2xl">Ohjelmointi</h2>
 
-                        <div className="flex justify-around">
+                        <div className="flex justify-around text-2xl *:transition *:delay-150 *:duration-300 *:ease-out sm:text-4xl sm:*:hover:scale-130">
                             <TbBrandCpp />
                             <FaPython />
                             <FaJs />
@@ -49,9 +49,9 @@ const experience = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <h2 className="">Media</h2>
+                        <h2 className="text-lg sm:text-2xl">Media</h2>
 
-                        <div className="flex justify-around">
+                        <div className="flex justify-around text-2xl *:transition *:delay-150 *:duration-300 *:ease-out sm:text-4xl sm:*:hover:scale-130">
                             <FaFigma />
                             <SiCanva />
                             <SiAdobephotoshop />

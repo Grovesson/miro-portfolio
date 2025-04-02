@@ -1,9 +1,36 @@
+import { useState } from "react"
+
+const PhoneNumber = () => {
+    const [revealed, setRevealed] = useState(false)
+
+    return (
+        <p className="">
+            Puhelinnumero:{" "}
+            {!revealed ? (
+                <button
+                    onClick={() => setRevealed(true)}
+                    className="bg-grove-500/10 text-grove-500 hover:text-grove-700 dark:hover:text-grove-100 dark:text-grove-300 cursor-pointer rounded-md border border-white/40 px-2 py-1 drop-shadow-md"
+                >
+                    Näytä numero
+                </button>
+            ) : (
+                <button
+                    onClick={() => setRevealed(false)}
+                    className="bg-grove-500/10 text-grove-500 hover:text-grove-700 dark:hover:text-grove-100 dark:text-grove-300 cursor-pointer rounded-md border border-white/40 px-2 py-1 drop-shadow-md"
+                >
+                    0400 269 669
+                </button>
+            )}
+        </p>
+    )
+}
+
 const Contact = () => {
     return (
         <div id="contact" className="@container bg-gradient-to-t p-12">
             <div className="m-auto flex max-w-[65ch] flex-col items-center gap-6">
                 <h2 className="text-2xl">Yhteystiedot</h2>
-                <p>Puhelinnumero: 0400269669</p>
+                <PhoneNumber />
                 <p>
                     Sähköposti:{" "}
                     <a
@@ -22,7 +49,7 @@ const Contact = () => {
                         Miro Lehto
                     </a>
                 </p>
-                <p className="bg-grove-500/10 text-grove-500 hover:text-grove-700 dark:hover:text-grove-100 dark:text-grove-300 rounded-md px-4 py-2 transition delay-75 duration-150 ease-out hover:scale-110">
+                <p className="bg-grove-500/10 text-grove-500 hover:text-grove-700 dark:hover:text-grove-100 dark:text-grove-300 cursor-pointer rounded-md border border-white/40 px-2 py-1 drop-shadow-md transition delay-75 duration-150 ease-out hover:scale-110">
                     <a href="#top" className="">
                         Takaisin ylös
                     </a>
