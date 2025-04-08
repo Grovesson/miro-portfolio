@@ -4,7 +4,6 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Experience from "./components/Experience"
 import Contact from "./components/Contact"
-import Stats from "./components/Stats"
 import Demo from "./components/Demo"
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         >
             <Navigation />
             <Hero />
-            <Stats />
             <About />
             <Experience />
             <Demo />

@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-        <div className="@container m-auto grid max-w-[65ch] grid-cols-1 gap-6 p-6 *:text-center sm:grid-cols-3 sm:p-12">
+        <div className="m-auto grid grid-cols-1 gap-6 *:text-center sm:grid-cols-3">
             <div className="flex flex-col">
                 <h2 className="text-4xl font-bold">6+</h2>
                 <p>Vuotta alan töitä ja opintoja.</p>

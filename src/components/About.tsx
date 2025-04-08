@@ -19,14 +19,26 @@ const About = () => {
                 kiinnostaa minua.
             </p> */}
             <p>
-                Kehityksen vahvuuteni on erityisesti Web-kehitys. Olen
-                työskennellyt useiden projektien parissa, joissa olen käyttänyt
-                mm. Reactia, WordPressiä, TypeScriptiä, NodeJS:ää ja Viteä.
+                Kehityksen vahvuuteni on erityisesti Web-kehitys. Projekteissa
+                olen käyttänyt mm. Wordpressiä, Reactia, Vueta, TypeScriptiä,
+                NodeJS:ää, Expressiä ja Viteä.
             </p>
             <p>
                 Web-kehityksen ulkopuolelta olen toteuttanut myös projekteja
                 esimerkiksi robotiikan, karttasovelluksien ja videopelien
                 parissa.
+            </p>
+            <p>
+                Uusin projektini on AI Chat bot. Se on
+                Node/Express/TypeScript-pohjainen API, joka käyttää{" "}
+                <a href="https://getstream.io/chat/">Streamiä</a>{" "}
+                keskusteluihin, keskusteluhistoriaan ja käyttäjien hallintaan.
+                Käytössä on myös <a href="https://neon.tech/">Neonin</a>{" "}
+                tarjoama PostgreSQL-tietokanta käyttäjätietojen ja
+                keskusteluhistorian tallentamiseen. Tietokannan kanssa käytetään{" "}
+                <a href="https://orm.drizzle.team/">Drizzle ORM:ää</a>.{" "}
+                <a href="https://openai.com/">OpenAI</a> toimii tekoälybotin
+                moottorina.
             </p>
         </div>
     )
