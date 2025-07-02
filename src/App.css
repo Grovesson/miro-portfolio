@@ -4,7 +4,7 @@
 
 @theme {
     --font-quicksand: "Quicksand", sans-serif;
-    --: "Poppins", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
     --color-grove-50: oklch(0.982 0.004 166.429);
     --color-grove-100: oklch(0.964 0.009 166.948);
     --color-grove-200: oklch(0.925 0.013 172.754);

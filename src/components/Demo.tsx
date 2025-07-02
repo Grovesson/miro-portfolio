@@ -1,5 +1,5 @@
 // import fakestore from "../assets/fakestore.png"
-import jio from "../assets/jio.svg"
+import jio from "../assets/JIO.svg"
 import robot from "../assets/robot.png"
 import vite from "../assets/vite.svg"
 import DemoCard from "./DemoCard"
